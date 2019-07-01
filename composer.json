@@ -3,6 +3,8 @@
     "description": "Coding standard based on PSR2 & Slevomat rules",
     "license": "MIT",
     "type": "phpcodesniffer-standard",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "Piotr Synowiec",
