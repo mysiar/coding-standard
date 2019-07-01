@@ -1,0 +1,19 @@
+{
+    "name": "mysiar/coding-standard",
+    "description": "Coding standard based on PSR2 & Slevomat rules",
+    "license": "MIT",
+    "type": "phpcodesniffer-standard",
+    "authors": [
+        {
+            "name": "Piotr Synowiec",
+            "email": "psynowiec@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "slevomat/coding-standard": "^5.0"
+    },
+    "autoload": {
+        "psr-4": { "Mysiar\\CodingStandard\\": "src/" }
+    }
+}
