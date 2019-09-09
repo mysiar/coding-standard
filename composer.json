@@ -16,6 +16,6 @@
         "slevomat/coding-standard": "^5.0"
     },
     "scripts": {
-        "post-install-cmd": "php -r \"copy('ruleset.xml', '../../ruleset.xml');\""
+        "post-package-install": "php -r \"copy('ruleset.xml', '../../ruleset.xml');\""
     }
 }
