@@ -33,6 +33,9 @@
     <rule ref="SlevomatCodingStandard.Namespaces.UseFromSameNamespace"/>
 
     <rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration">
+        <properties>
+            <property name="usefulAnnotations" type="array" value="@BeforeScenario,@AfterScenario,@Given,@Then,@group,@dataProvider,@depends,@throws,@deprecated,@Serializer\PostDeserialize"/>
+        </properties>
         <exclude name="SlevomatCodingStandard.TypeHints.TypeHintDeclaration.MissingTraversableParameterTypeHintSpecification"/>
         <exclude name="SlevomatCodingStandard.TypeHints.TypeHintDeclaration.MissingTraversableReturnTypeHintSpecification"/>
     </rule>
