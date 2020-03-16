@@ -11,6 +11,13 @@
         </properties>
     </rule>
 
+    <rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHint" />
+    <rule ref="SlevomatCodingStandard.TypeHints.PropertyTypeHint" />
+    <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHint" />
+    <rule ref="SlevomatCodingStandard.TypeHints.UselessConstantTypeHint" />
+    <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes" />
+
+    <rule ref="SlevomatCodingStandard.Classes.ClassStructure" />
     <rule ref="SlevomatCodingStandard.Classes.ClassConstantVisibility"/>
     <rule ref="SlevomatCodingStandard.Classes.UnusedPrivateElements"/>
 
@@ -31,14 +38,6 @@
     </rule>
     <rule ref="SlevomatCodingStandard.Namespaces.UseDoesNotStartWithBackslash"/>
     <rule ref="SlevomatCodingStandard.Namespaces.UseFromSameNamespace"/>
-
-    <rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration">
-        <properties>
-            <property name="usefulAnnotations" type="array" value="@Route,@BeforeScenario,@AfterScenario,@Given,@Then,@group,@dataProvider,@depends,@throws,@deprecated,@Serializer\PostDeserialize"/>
-        </properties>
-        <exclude name="SlevomatCodingStandard.TypeHints.TypeHintDeclaration.MissingTraversableParameterTypeHintSpecification"/>
-        <exclude name="SlevomatCodingStandard.TypeHints.TypeHintDeclaration.MissingTraversableReturnTypeHintSpecification"/>
-    </rule>
 
     <rule ref="Squiz.Strings.ConcatenationSpacing">
         <properties>
