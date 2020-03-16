@@ -9,3 +9,8 @@ coding standard based on PSR2 & [slevomat/coding-standard](https://github.com/sl
 
 ## Execute
 * `phpcs --standard=./ruleset.xml --extensions=php`
+
+## Versions
+
+* `1.x.x` uses slevomat/coding-standard ver 5
+* `2.x.x` uses slevomat/coding-standard ver 6
